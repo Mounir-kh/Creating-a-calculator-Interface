@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game World</title>
+</head>
+<body>
+    <div id="container">
+    <h1 id="sentence"></h1>
+    <section id="calculator_container">
+        
+        <input onkeypress="return isNumberKey(event)" type="number" id="show_numbers">
+        <ul>
+            <li id="One">1</li><li id="Two">2</li><li id="Three">3</li>
+        </ul>
+        <ul>
+            <li id="Four">4</li><li id="Five">5</li><li id="Six">6</li>
+        </ul>
+        <ul>
+            <li id="Seven">7</li><li id="Eight">8</li><li id="Nine">9</li>
+        </ul>
+        <ul id="zero_container">
+            <li id="Zero">0</li>
+            <li id="addition">+</li>
+        </ul>
+
+        <button value="Submit" type="submit">Submit</button>
+    </section>
+    <section id="gif_container">
+        <img id="gif" src="https://i.pinimg.com/originals/31/af/af/31afaf07ad5cf8c7813db257bd45291b.gif" alt="GIF Image">
+
+    </section>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
