@@ -1,6 +1,6 @@
 var i=0;
 var head=document.getElementById('sentence');
-var text="This is a simple calculation project";
+var text="This is a simple calculator project";
 
 /*The Title caracteristics*/
 function typing(){
